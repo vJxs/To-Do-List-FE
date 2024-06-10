@@ -5,6 +5,7 @@ import ViewAllTask from './components/ViewAllTask'
 import UpdateTask from './components/UpdateTask'
 import Login from './components/Login'
 import NavBar from './components/NavBar'
+// import ViewPrivateTask from './components/Private'
 
 function App() {
   return (
@@ -17,8 +18,8 @@ function App() {
         <Route path='/view' />
         <Route path='/add' element={<AddTask />} />
         <Route path='/update/:id' element={<UpdateTask />} />
+        {/* <Route path='/private' element={<ViewPrivateTask />} /> */}
       </Routes>
-
     </>
   )
 }

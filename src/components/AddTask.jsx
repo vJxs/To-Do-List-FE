@@ -10,8 +10,8 @@ const AddTask = () => {
     })
 
 
-    const handleAdd = () => {
-    }
+    // const handleAdd = () => {
+    // }
     const [msg, SetMsg] = useState(null)
     const [formData, setFormData] = useState({
         task: "",
